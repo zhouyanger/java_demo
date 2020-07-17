@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd 
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <context:component-scan base-package="com.zy">
+        <!--application父容器步扫描controller注解，这样两个配置文件各自各负责各自的-->
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--数据库连接信息-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <!-- 基本属性 url、user、password -->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/test" />
+        <property name="username" value="root" />
+        <property name="password" value="123456" />
+
+        <!-- 配置监控统计拦截的filters -->
+        <property name="filters" value="stat" />
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="maxActive" value="20" />
+        <property name="initialSize" value="1" />
+        <property name="minIdle" value="1" />
+
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="60000" />
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000" />
+
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="300000" />
+
+        <property name="testWhileIdle" value="true" />
+        <property name="testOnBorrow" value="false" />
+        <property name="testOnReturn" value="false" />
+
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxOpenPreparedStatements" value="20" />
+    </bean>
+    
+    <!--配置mybatis-->
+    <!-- 配置SqlSessionFactoryBean -->
+    <bean id="sqlsessionfactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 指定连接源 -->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 指定映射文件 -->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+    <!-- 扫描指定包下的接口,自动生成代理类 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.zy.dao"/>
+    </bean>
+    
+    <!--<bean id="userService" class="com.zy.service.UserServiceImpl"></bean>-->
+    <!--security配置-->
+    <!--
+    auto-config 自动家在springsecurity的配置文件
+    use-expressions：表示使用spring的el表达式配置springsecurity
+    pattern="/** 一个*表示拦截一层，两个表示拦截所有
+    -->
+    <security:http  auto-config="true" use-expressions="true">
+       
+        <security:intercept-url pattern="/login.html" access="permitAll()"/>
+        <security:intercept-url pattern="/error.html" access="permitAll()"/>
+        <security:intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>
+        <security:intercept-url pattern="/user/**" access="hasRole('ROLE_USER')"/>
+        
+        <!--配置登录信息-->
+        <security:form-login  login-page="/login.html" username-parameter="username" password-parameter="password" 
+                             login-processing-url="/authentication/form" authentication-failure-url="/error.html" 
+                             authentication-success-forward-url="/index.jsp"/>
+        <!--配置记住我信息user-service-ref 如果有多个useservice就要写这个-->
+        <security:remember-me user-service-ref="userService"
+                              remember-me-parameter="remember-me" data-source-ref="dataSource"
+                              token-validity-seconds="60"/>
+        
+        <!--配置退出信息-->
+        <security:logout logout-url="/logout_zy" invalidate-session="true" delete-cookies="JSESSIONID"  logout-success-url="/login.html"/>
+        
+        <!--session管理-->
+       <!--<security:session-management session-authentication-error-url="" invalid-session-url="/errorsession.jsp">-->
+           <!--<security:concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />-->
+       <!--</security:session-management>-->
+        
+        <!--关闭csrf-->
+        <security:csrf disabled="true"/>
+        
+    </security:http>
+    <!--启动对方法权限的注解 jsr250-annotations secured-annotations pre-post-annotations 三种方法-->
+    <security:global-method-security jsr250-annotations="enabled" secured-annotations="enabled" pre-post-annotations="enabled"/>
+    
+    <!--方式二：使用内存数据库，模拟用户-->
+    <!--<security:authentication-manager>-->
+        <!--<security:authentication-provider>-->
+    <!--<security:user-service>-->
+        <!--<security:user name="admin" password="123"  authorities="ROLE_ADMIN"/>-->
+        <!--<security:user name="user" password="123"  authorities="ROLE_USER"/>-->
+    <!--</security:user-service>-->
+            <!--使用不加密方式-->
+    <!--<security:password-encoder ref="noOpPasswordEncoder"/>-->
+<!--</security:authentication-provider>-->
+        <!--</security:authentication-manager>-->
+    <!--<bean id="noOpPasswordEncoder" class="org.springframework.security.crypto.password.NoOpPasswordEncoder"/>-->
+
+    <!--方式二：使用自定义的表结构查询用户信息-->
+    <!--<security:authentication-manager>-->
+        <!--<security:authentication-provider>-->
+            <!--<security:jdbc-user-service  data-source-ref="dataSource" users-by-username-query="select username,password,status as enabled from sys_user where username = ?"-->
+                                        <!--authorities-by-username-query="select sys_user.username,sys_role.role_name authority from sys_user,sys_role,sys_user_role where sys_user.id=sys_user_role.uid and -->
+    <!--sys_user_role.rid=sys_role.id and sys_user.username='admin';"/>-->
+            <!--<security:password-encoder ref="noOpPasswordEncoder"/>-->
+        <!--</security:authentication-provider>-->
+    <!--</security:authentication-manager>-->
+
+    <!--方式三：使用userdetailservice自定义数据库信息做认证-->
+    <security:authentication-manager>
+    <security:authentication-provider user-service-ref="userService">
+    <security:password-encoder ref="bCryptPasswordEncoder"/>
+    </security:authentication-provider>
+    </security:authentication-manager>
+    <bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    
+        <!--<security:intercept-methods>-->
+            <!--<security:protect method="" access=""/>-->
+        <!--</security:intercept-methods>-->
+    <!--</bean>-->
+</beans>
