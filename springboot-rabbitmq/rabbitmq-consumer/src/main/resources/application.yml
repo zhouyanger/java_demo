@@ -1,0 +1,11 @@
+server:
+  port: 8482
+spring:
+  application:
+    name: rabbit-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../zy-spring-boot-starter/zy-spring-boot-starter.iml" filepath="$PROJECT_DIR$/../zy-spring-boot-starter/zy-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zy-spring-boot-starter-autoconfigration/zy-spring-boot-starter-autoconfigration.iml" filepath="$PROJECT_DIR$/zy-spring-boot-starter-autoconfigration/zy-spring-boot-starter-autoconfigration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zy-springboot-starter-test/zy-springboot-starter-test.iml" filepath="$PROJECT_DIR$/zy-springboot-starter-test/zy-springboot-starter-test.iml" />
+    </modules>
+  </component>
+</project>

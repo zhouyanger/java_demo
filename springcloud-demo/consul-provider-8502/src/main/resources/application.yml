@@ -1,0 +1,12 @@
+server:
+  port: 9502
+spring:
+  application:
+    name: consul-provider
+  cloud:
+    consul:
+      discovery:
+        hostname: consul8500
+        instance-id: consul-provider
+      host: localhost
+      port: 8500

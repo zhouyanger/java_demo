@@ -1,0 +1,16 @@
+server:
+  port: 8761
+#设置 eureka 实例名称
+eureka:
+  instance:
+    hostname: eureka-server8761
+  client:
+    registerWithEureka: false #不注册进注册中心，表明自己是注册中心
+    fetchRegistry: false   #不从注册中心拉取服务列表
+    serviceUrl:
+      defaultZone: http://eureka-server8761:8761/eureka/,http://eureka-server8762:8762/eureka/  #注册中心地址
+      
+
+spring:
+  application:
+    name: eureka-server

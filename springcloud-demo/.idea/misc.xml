@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-8761/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-provider-8771/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-8782/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign-8781/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul-8791/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client-8851/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-8841/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider-8502/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-provider-8773/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-consumer-8783/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

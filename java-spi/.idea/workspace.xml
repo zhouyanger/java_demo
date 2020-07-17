@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84df0990-1f9d-49be-8ba2-d92e6bfc3fbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/zy/dao/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/zy/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/target/classes/com/zy/dao/DemoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/target/classes/com/zy/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/api/src/main/java/com/zy/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/classes/com/zy/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/asm-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/aspectjrt-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/cglib-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/jsp-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-test-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/consumer/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-demo/provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-api/consumer/src/main/java/com/example/consumer/config/ConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-api/consumer/src/main/java/com/example/consumer/contorller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-api/provider/src/main/java/com/example/provider/config/ProviderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-api/provider/src/main/java/com/example/provider/dao/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/consumer/src/main/java/com/example/consumer/contorller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/src/main/java/com/example/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/src/main/java/com/example/provider/dao/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-properties/provider/src/test/java/com/example/provider/ProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/src/main/java/com/example/consumer/contorller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/src/main/java/com/example/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/src/main/java/com/example/provider/dao/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot-xmlconfig/provider/src/test/java/com/example/provider/ProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-tst/src/main/java/Trst.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\LocalRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eLHy4qnus9htotnoBvd6OSnv19" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF/dubbo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26551723" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacodetest\java-spi\src\main\resources\META-INF\dubbo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zy.zishiying" />
+      <recent name="com.zy.dubbospi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zy.zishiying.Test" />
+      <module name="java-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.zishiying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zy.test.Test" />
+      <module name="java-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84df0990-1f9d-49be-8ba2-d92e6bfc3fbb" name="Default Changelist" comment="" />
+      <created>1594094203864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594094203864</updated>
+      <workItem from="1594094210888" duration="12497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2414" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594119661962">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2414" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594119661962" />
+    <state x="2525" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1594119734751">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2525" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594119734751" />
+    <state x="2524" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594118480921">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2524" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594118480921" />
+    <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594116512510">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594116512510" />
+    <state width="491" height="466" key="DebuggerActiveHint" timestamp="1594115745047">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="491" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594115745047" />
+    <state width="1557" height="282" key="GridCell.Tab.0.bottom" timestamp="1594175537321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537321" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125726196" />
+    <state width="1557" height="282" key="GridCell.Tab.0.center" timestamp="1594175537321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537321" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125726196" />
+    <state width="1557" height="282" key="GridCell.Tab.0.left" timestamp="1594175537321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537321" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125726196" />
+    <state width="1557" height="282" key="GridCell.Tab.0.right" timestamp="1594175537321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537321" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125726196" />
+    <state width="1557" height="282" key="GridCell.Tab.1.bottom" timestamp="1594175537322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537322" />
+    <state width="1557" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125589574" />
+    <state width="1557" height="282" key="GridCell.Tab.1.center" timestamp="1594175537322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537322" />
+    <state width="1557" height="282" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125589574" />
+    <state width="1557" height="282" key="GridCell.Tab.1.left" timestamp="1594175537321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537321" />
+    <state width="1557" height="282" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125589574" />
+    <state width="1557" height="282" key="GridCell.Tab.1.right" timestamp="1594175537322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1557" height="282" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1594175537322" />
+    <state width="1557" height="282" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1594125589574" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../Java/java8/jdk/src.zip!/java/util/ServiceLoader.java</url>
+          <line>536</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zy/test/Test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="java.lang.String" fieldName="hash" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.getExtensionClasses()" language="JAVA" />
+        <watch expression="this.cachedClasses" language="JAVA" />
+        <watch expression="this.objectFactory" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

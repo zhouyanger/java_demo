@@ -1,0 +1,20 @@
+server:
+  port: 8792
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: route1  #随意起的名字
+        uri: lb://eureka-provider  #lb://指定路由得服务集群，也可以指定某个服务实例，http://eureka-provider:8771
+        predicates:  #断言，这里使用了path断言
+        - Path=/**
+        filters:  #过滤,这里是调用AddRequestParamFilter 增加参数
+        - RequestTime=true
+  application:
+    name: service-gateway
+eureka:
+  client:
+    service-url: 
+      deafultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: gateway8792

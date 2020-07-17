@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client-8851/config-client-8851.iml" filepath="$PROJECT_DIR$/config-client-8851/config-client-8851.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-8841/config-server-8841.iml" filepath="$PROJECT_DIR$/config-server-8841/config-server-8841.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-provider-8502/consul-provider-8502.iml" filepath="$PROJECT_DIR$/consul-provider-8502/consul-provider-8502.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-provider-8771/eureka-provider-8771.iml" filepath="$PROJECT_DIR$/eureka-provider-8771/eureka-provider-8771.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-8761/eureka-server-8761.iml" filepath="$PROJECT_DIR$/eureka-server-8761/eureka-server-8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-consumer-8783/nacos-consumer-8783.iml" filepath="$PROJECT_DIR$/nacos-consumer-8783/nacos-consumer-8783.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider-8773/nacos-provider-8773.iml" filepath="$PROJECT_DIR$/nacos-provider-8773/nacos-provider-8773.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign-8781/service-feign-8781.iml" filepath="$PROJECT_DIR$/service-feign-8781/service-feign-8781.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway-8792/service-gateway-8792.iml" filepath="$PROJECT_DIR$/service-gateway-8792/service-gateway-8792.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon-8782/service-ribbon-8782.iml" filepath="$PROJECT_DIR$/service-ribbon-8782/service-ribbon-8782.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul-8791/service-zuul-8791.iml" filepath="$PROJECT_DIR$/service-zuul-8791/service-zuul-8791.iml" />
+    </modules>
+  </component>
+</project>

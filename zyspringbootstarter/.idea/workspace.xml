@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d54444b-5dfa-4370-b65b-1aa5c43ef3a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\LocalRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dlrFgFtk8VjiVC6oSyVnRyPAcU" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaconfig/code_formatter.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26551723" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZySpringbootStarterTestApplication">
+    <configuration name="ZySpringBootStarterAutoconfigrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zy-spring-boot-starter-autoconfigration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.zyspringbootstarterautoconfigration.ZySpringBootStarterAutoconfigrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZySpringbootStarterTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zy-springboot-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.zyspringbootstartertest.ZySpringbootStarterTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d54444b-5dfa-4370-b65b-1aa5c43ef3a5" name="Default Changelist" comment="" />
+      <created>1593010418843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593010418843</updated>
+      <workItem from="1593010423686" duration="2728000" />
+      <workItem from="1593047826942" duration="285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2184" y="6" key="#Project_Structure" timestamp="1593010491184">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2184" y="6" key="#Project_Structure/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593010491184" />
+    <state x="2509" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1593010883286">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2509" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593010883286" />
+    <state width="1474" height="207" key="GridCell.Tab.0.bottom" timestamp="1593012205023">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1474" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593012205022" />
+    <state width="1474" height="207" key="GridCell.Tab.0.center" timestamp="1593012205021">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1474" height="207" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593012205021" />
+    <state width="1474" height="207" key="GridCell.Tab.0.left" timestamp="1593012205021">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1474" height="207" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593012205021" />
+    <state width="1474" height="207" key="GridCell.Tab.0.right" timestamp="1593012205021">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1474" height="207" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593012205021" />
+    <state x="2184" y="6" key="SettingsEditor" timestamp="1593011679061">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2184" y="6" key="SettingsEditor/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593011679061" />
+    <state x="2079" y="41" key="new project wizard" timestamp="1593011503989">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2079" y="41" key="new project wizard/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593011503989" />
+    <state x="2367" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1593012253445">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2367" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1593012253445" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      #config-server配置进注册中心后，可配置集群，不用写uri，直接配置配只得服务id，实现高可用，最下面的
+      uri: http://localhost:8841
+      label: master  #分支
+      profile: dev  #环境和git文件的命名一致
+#      discovery:
+#        enabled: true
+#        service-id: config-server  #不是用uri，使用configserid

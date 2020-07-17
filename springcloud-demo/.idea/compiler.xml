@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client-8851" />
+        <module name="config-server-8841" />
+        <module name="consul-provider-8502" />
+        <module name="eureka-provider-8771" />
+        <module name="eureka-server-8761" />
+        <module name="nacos-consumer-8783" />
+        <module name="nacos-provider-8773" />
+        <module name="service-feign-8781" />
+        <module name="service-gateway-8792" />
+        <module name="service-ribbon-8782" />
+        <module name="service-zuul-8791" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-client-8851" target="1.8" />
+      <module name="config-client-demo" target="1.8" />
+      <module name="config-client1" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server-8841" target="1.8" />
+      <module name="config-server1" target="1.8" />
+      <module name="consul-provider-8502" target="1.8" />
+      <module name="eureka-provider-8771" target="1.8" />
+      <module name="eureka-server-8761" target="1.8" />
+      <module name="nacos-consumer-8783" target="1.8" />
+      <module name="nacos-provider-8773" target="1.8" />
+      <module name="service-feign-8781" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="service-gateway-8792" target="1.8" />
+      <module name="service-ribbon-8782" target="1.8" />
+      <module name="service-zuul-8791" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-provider-8771" options="" />
+      <module name="eureka-server-8761" options="" />
+    </option>
+  </component>
+</project>

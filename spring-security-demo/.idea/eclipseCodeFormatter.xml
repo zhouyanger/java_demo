@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="importOrderConfigFilePath" value="D:/360安全浏览器下载/code_formatter.xml" />
+        <option name="pathToConfigFileJava" value="D:/javaconfig/code_formatter.xml" />
+        <option name="selectedJavaProfile" value="QB Convention" />
+      </ProjectSpecificProfile>
+    </option>
+  </component>
+</project>

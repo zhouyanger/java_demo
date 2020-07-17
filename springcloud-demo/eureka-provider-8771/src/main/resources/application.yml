@@ -1,0 +1,27 @@
+server:
+  port: 8771
+#服务名
+spring:
+  application:
+    name: eureka-provider
+#  zipkin:
+#    base-url: localhost:9411
+#eureka的注册地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server8762:8762/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}  #修改实例名称
+    prefer-ip-address: true
+    hostname: eureka-provider8771  #修改主机名
+
+#修改点击实例连接显示的信息
+info:
+  app.name: eureka-provider
+  company.name: www.zy.com
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        exclude: "*" #如果是Finchley的话就需要加入上面的配置。因为spring Boot 2.0.x以后的actuator只暴露了info和health2个端点，这里我们把所有端点开放，include: '*'代表开放所有端点。

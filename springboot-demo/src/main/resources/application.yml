@@ -1,0 +1,9 @@
+teacher:
+    sname: 张三
+logging:
+    file:
+        name: springboot.log
+        path: /log
+    pattern:
+        console: "%d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n"
+debug: true

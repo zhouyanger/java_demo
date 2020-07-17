@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/config-client-8851" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server-8841" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-provider-8502" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-provider-8771" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-provider-8771/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-8761" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-8761/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer-8783" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provider-8773" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign-8781" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign-8781" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-gateway-8792" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-8782" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-zuul-8791" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+<bean id="student" class="com.zy.entity.Student" scope="singleton" lazy-init="true" init-method="init" destroy-method="destory">
+    <property name="name" value="周杨"/>
+    <property name="age" value="25"/>
+</bean>
+    <bean id="teacher" class="com.zy.entity.Teacher">
+        <property name="name" value="王二"/>
+        <property name="cards">
+            <list>
+                <value>黄色</value>
+                <value>黑色</value>
+            </list>
+        </property>
+        <property name="student" ref="student"/>
+    </bean>
+    
+    <!--注解版-->
+    <context:component-scan  base-package ="com.zy.annotion"/>
+    <context:component-scan  base-package ="com.zy.aop"/>
+    
+    <!--开启aop注解-->
+    <aop:aspectj-autoproxy/>
+</beans>

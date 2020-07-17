@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:redis="http://www.springframework.org/schema/redis"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/redis http://www.springframework.org/schema/redis/spring-redis.xsd">
+    
+    <!--redisconfig-->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxIdle" value="50" />
+        <property name="maxActive" value="100" />
+        <property name="maxWait" value="6000"/>
+    </bean>
+    <!--rdis连接工厂-->
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="hostName" value="localhost" />
+        <property name="port" value="6379" />
+        <property name="poolConfig" ref="poolConfig" />
+    </bean>
+    
+    <!--string 和jdk序列化器-->
+    <bean id="jdkSerializationRedisSerializer" class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
+    <bean id="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+    
+    <!--配置redisTemplate-->
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="connectionFactory" />
+        <!--key和value的序列化方式 常用string或者jdk-->
+        <property name="keySerializer" ref="stringRedisSerializer" />
+        <property name="valueSerializer" ref="stringRedisSerializer" />
+    </bean>
+    
+    <!--配置redis监听器-->
+    <bean id="messageListener" class="com.zy.listener.RedisMessageListener">
+        <property name="stringRedisSerializer" ref="stringRedisSerializer"/>
+        <property name="jdkSerializationRedisSerializer" ref="jdkSerializationRedisSerializer"/>
+    </bean>
+    <!--配置redis监听器container-->
+    <!--配置线程池-->
+    <bean id="poolTaskScheduler"
+            class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">
+        <property name="poolSize" value="3" />
+    </bean>
+    <!--配置容器，topic是监听的通道的名称，自定义的-->
+    <redis:listener-container connection-factory="connectionFactory" task-executor="poolTaskScheduler" topic-serializer="stringRedisSerializer">
+        <redis:listener ref="messageListener" method="onMessage" topic="chat" serializer="stringRedisSerializer"/>
+    </redis:listener-container>
+</beans>
