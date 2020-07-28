@@ -5,6 +5,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import javax.servlet.Filter;
 import javax.servlet.FilterRegistration;
+import javax.servlet.FilterRegistration.Dynamic;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
@@ -37,4 +38,5 @@ public class MyDispatcherInitializer extends AbstractAnnotationConfigDispatcherS
         characterEncodingFilter.setForceEncoding(false);
         return new Filter[]{characterEncodingFilter};
     }
+
 }

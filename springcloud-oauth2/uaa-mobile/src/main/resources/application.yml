@@ -1,0 +1,10 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: uaa-mobile-service
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: refresh,health,info,env

@@ -6,7 +6,235 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d6c9de-2fcc-4de9-90be-d94b4b6efc44" name="Default Changelist" comment="" />
+    <list default="true" id="91d6c9de-2fcc-4de9-90be-d94b4b6efc44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springboot-security/src/main/java/com/zy/springbootsecurity/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/artifacts/spring_security_demo_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/controller/MyExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/entity/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/zy/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/classes/com/zy/controller/MyExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/classes/com/zy/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/classes/com/zy/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/classes/com/zy/controller/MyExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/classes/com/zy/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/classes/com/zy/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/asm-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/aspectjrt-1.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/cglib-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-test-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/view/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-demo/target/spring-security-demo/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/config/MyServletConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/config/MySpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/entity/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/init/SpittrWebAppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/com/zy/init/SpringSecurityApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/src/main/java/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/config/MyServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/config/MySpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/entity/AuthenticationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/init/SpittrWebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/classes/com/zy/init/SpringSecurityApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/MyServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/MySpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/entity/AuthenticationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/init/SpittrWebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/init/SpringSecurityApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/mybatis-3.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/mysql-connector-java-5.1.39.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-security-acl-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-security-config-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-security-core-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-security-taglibs-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-security-web-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-test-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-noxml/target/springmvc-noxml-demo/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo/springboot.log" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo/springboot.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo/springboot.log.2020-06-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo/springboot.log.2020-06-24.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/src/main/java/com/zy/config/MyDispatcherInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/src/main/java/com/zy/config/MyDispatcherInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/META-INF/springmvc-noxml-demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/MyDispatcherInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/MyDispatcherInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/SpringCnfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/SpringCnfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/classes/com/zy/config/WebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/MyDispatcherInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/MyDispatcherInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/SpringCnfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/SpringCnfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc-noxml-demo/target/springmvc-noxml-demo/WEB-INF/classes/com/zy/config/WebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zy-spring-boot-starter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zy-spring-boot-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zy-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zy-spring-boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zy-spring-boot-starter/target/zy-spring-boot-starter-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/src/main/java/com/zy/HelloConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/src/main/java/com/zy/HelloProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/src/main/java/com/zy/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-spring-boot-starter-autoconfigration/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/src/main/java/com/zy/zyspringbootstartertest/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/src/main/java/com/zy/zyspringbootstartertest/ZySpringbootStarterTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zyspringbootstarter/zy-springboot-starter-test/src/test/java/com/zy/zyspringbootstartertest/ZySpringbootStarterTestApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +252,114 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1224259773">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="java" value="3" />
+          <entry key="jsp" value="3" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="JSP" value="3" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="122" column="42" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/errorsession.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/role.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +379,9 @@
       <find>junit</find>
       <find>tomcat</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -65,19 +404,145 @@
         <option name="userSettingsFile" value="D:\Java\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1981" />
+    <option name="y" value="26" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectId" id="1d4VSCJ6WPnCAga11R5pfsuBxfc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zy" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-xml-security-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-xml-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -89,7 +554,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577887094620" />
-    <property name="last_opened_file_path" value="D:/javacodetest/springcloud-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -126,20 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test69">
-    <configuration name="Test69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zy.service.Test69" />
-      <module name="springmvc-xml-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zy.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="All Features in: springmvc-xml-security-demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -254,11 +706,9 @@
       <item itemvalue="Cucumber java.All Features in: springmvc-xml-security-demo" />
       <item itemvalue="JUnit.MyTest.getListTest" />
       <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="Application.Test69" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test69" />
         <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.MyTest.getListTest" />
       </list>
@@ -296,30 +746,27 @@
       <workItem from="1591684591863" duration="14000" />
       <workItem from="1591684839267" duration="2611000" />
       <workItem from="1594294463065" duration="117000" />
+      <workItem from="1595029918871" duration="1778000" />
+      <workItem from="1595120232764" duration="580000" />
+      <workItem from="1595554626482" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117000" />
+    <option name="totallyTimeSpent" value="3690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1981" y="26" width="1552" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -327,15 +774,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +875,80 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="122" column="42" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/errorsession.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/role.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

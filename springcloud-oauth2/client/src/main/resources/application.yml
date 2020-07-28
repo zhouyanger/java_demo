@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: client1
+server:
+  port: 8888
+  
+github:
+  clientId: 190b3f9a861cfafd2ebe
+  clientSecret: 0322162dafc1c1ad3db4cc3496f4670ee63208ca
+  authorizeUrl: https://github.com/login/oauth/authorize
+  redirectUrl: http://localhost:8888/oauth/callback
+  accessTokenUrl: https://github.com/login/oauth/access_token
+  userInfoUrl: https://api.github.com/user
+

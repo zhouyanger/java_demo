@@ -1,44 +1,44 @@
-2020-06-25 09:42:42.397 DEBUG 7524 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/D:/javacodetest/springboot-demo/target/classes/]
-2020-06-25 09:42:42.528  INFO 7524 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication on zy with PID 7524 (D:\javacodetest\springboot-demo\target\classes started by Administrator in D:\javacodetest\springboot-demo)
-2020-06-25 09:42:42.531  INFO 7524 --- [restartedMain] c.z.s.SpringbootDemoApplication          : No active profile set, falling back to default profiles: default
-2020-06-25 09:42:42.532 DEBUG 7524 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.zy.springbootdemo.SpringbootDemoApplication
-2020-06-25 09:42:42.616 DEBUG 7524 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/D:/javacodetest/springboot-demo/target/classes/application.yml' (classpath:/application.yml)
-2020-06-25 09:42:42.618 DEBUG 7524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/javacodetest/springboot-demo/target/classes/]
-2020-06-25 09:42:42.618 DEBUG 7524 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
-2020-06-25 09:42:42.618 DEBUG 7524 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
-2020-06-25 09:42:42.618  INFO 7524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-25 09:42:42.618  INFO 7524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-25 09:42:42.619 DEBUG 7524 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a6d1e3
-2020-06-25 09:42:43.579 DEBUG 7524 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
-2020-06-25 09:42:43.579 DEBUG 7524 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
-2020-06-25 09:42:43.579 DEBUG 7524 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-06-25 09:42:43.644  INFO 7524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-06-25 09:42:43.655  INFO 7524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-25 09:42:43.655  INFO 7524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-06-25 09:42:43.657  INFO 7524 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
-2020-06-25 09:42:43.658  INFO 7524 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
-2020-06-25 09:42:43.658  INFO 7524 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2020-06-25 09:42:43.658  INFO 7524 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2020-06-25 09:42:44.699  INFO 7524 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
-2020-06-25 09:42:44.762  INFO 7524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-25 09:42:44.762 DEBUG 7524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2020-06-25 09:42:44.762  INFO 7524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
-2020-06-25 09:42:44.775 DEBUG 7524 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
-2020-06-25 09:42:44.775 DEBUG 7524 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
-2020-06-25 09:42:44.791 DEBUG 7524 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
-2020-06-25 09:42:44.791 DEBUG 7524 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
-2020-06-25 09:42:44.791 DEBUG 7524 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
-2020-06-25 09:42:44.916  INFO 7524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-25 09:42:44.930 DEBUG 7524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2020-06-25 09:42:44.973 DEBUG 7524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
-2020-06-25 09:42:44.987 DEBUG 7524 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/zy] in 'viewControllerHandlerMapping'
-2020-06-25 09:42:45.002 DEBUG 7524 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2020-06-25 09:42:45.012 DEBUG 7524 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2020-06-25 09:42:45.037 DEBUG 7524 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
-2020-06-25 09:42:45.074 DEBUG 7524 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
-2020-06-25 09:42:45.076  INFO 7524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-25 09:42:45.110  INFO 7524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-06-25 09:42:45.135 DEBUG 7524 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2020-07-21 19:39:30.966 DEBUG 13972 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:39:31.052  INFO 13972 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication on zy with PID 13972 (D:\javacodetest\springboot-demo\target\classes started by Administrator in D:\javacodetest\springboot-demo)
+2020-07-21 19:39:31.053  INFO 13972 --- [restartedMain] c.z.s.SpringbootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-21 19:39:31.053 DEBUG 13972 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.zy.springbootdemo.SpringbootDemoApplication
+2020-07-21 19:39:31.102 DEBUG 13972 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/D:/javacodetest/springboot-demo/target/classes/application.yml' (classpath:/application.yml)
+2020-07-21 19:39:31.103 DEBUG 13972 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:39:31.104 DEBUG 13972 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2020-07-21 19:39:31.104 DEBUG 13972 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
+2020-07-21 19:39:31.104  INFO 13972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-21 19:39:31.104  INFO 13972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-21 19:39:31.104 DEBUG 13972 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69f464a5
+2020-07-21 19:39:31.904 DEBUG 13972 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+2020-07-21 19:39:31.905 DEBUG 13972 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+2020-07-21 19:39:31.905 DEBUG 13972 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-07-21 19:39:31.958  INFO 13972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-21 19:39:31.965  INFO 13972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-21 19:39:31.966  INFO 13972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-21 19:39:31.968  INFO 13972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-21 19:39:31.968  INFO 13972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-07-21 19:39:31.968  INFO 13972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-21 19:39:31.968  INFO 13972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-21 19:39:33.002  INFO 13972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-07-21 19:39:33.063  INFO 13972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-21 19:39:33.063 DEBUG 13972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-21 19:39:33.063  INFO 13972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1959 ms
+2020-07-21 19:39:33.074 DEBUG 13972 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-21 19:39:33.074 DEBUG 13972 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-21 19:39:33.092 DEBUG 13972 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2020-07-21 19:39:33.092 DEBUG 13972 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2020-07-21 19:39:33.092 DEBUG 13972 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2020-07-21 19:39:33.209  INFO 13972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-21 19:39:33.221 DEBUG 13972 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-21 19:39:33.258 DEBUG 13972 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2020-07-21 19:39:33.266 DEBUG 13972 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/zy] in 'viewControllerHandlerMapping'
+2020-07-21 19:39:33.277 DEBUG 13972 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-21 19:39:33.284 DEBUG 13972 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-21 19:39:33.294 DEBUG 13972 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2020-07-21 19:39:33.322 DEBUG 13972 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
+2020-07-21 19:39:33.323  INFO 13972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-21 19:39:33.347  INFO 13972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-21 19:39:33.365 DEBUG 13972 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 
 ============================
@@ -155,19 +155,6 @@ Positive matches:
 
    JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
       - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
-      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
-
-   JmxAutoConfiguration#mbeanExporter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration#mbeanServer matched:
-      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration#objectNamingStrategy matched:
-      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
 
    LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
       - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
@@ -516,6 +503,12 @@ Negative matches:
    JmsAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'javax.jms.Message' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
 
    JndiConnectionFactoryAutoConfiguration:
       Did not match:
@@ -869,89 +862,55 @@ Unconditional classes:
 
 
 
-2020-06-25 09:42:45.153  INFO 7524 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 3.166 seconds (JVM running for 4.234)
-2020-06-25 09:42:45.155 DEBUG 7524 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
-2020-06-25 09:42:45.155 DEBUG 7524 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
-2020-06-25 09:42:45.155 DEBUG 7524 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c00e68c
-2020-06-25 09:42:45.155 DEBUG 7524 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.zy.springbootdemo.SpringbootDemoApplication with URLs [file:/D:/javacodetest/springboot-demo/target/classes/]
-2020-06-25 09:42:57.388  INFO 7524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-06-25 09:42:57.389  INFO 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-25 09:42:57.389 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2020-06-25 09:42:57.392 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2020-06-25 09:42:57.393  INFO 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2020-06-25 09:42:57.399 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
-2020-06-25 09:42:57.403 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2020-06-25 09:42:57.406 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2020-06-25 09:42:57.406 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2020-06-25 09:42:57.411 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2020-06-25 09:42:57.412 DEBUG 7524 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
-2020-06-25 09:42:57.435 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2020-06-25 09:42:57.436 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jun 25 09:42:57 CST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
-2020-06-25 09:42:57.465 DEBUG 7524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2020-06-25 09:43:01.777 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/test", parameters={}
-2020-06-25 09:43:01.777 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2020-06-25 09:43:01.779 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2020-06-25 09:43:01.779 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2020-06-25 09:43:01.779 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2020-06-25 09:43:01.779 DEBUG 7524 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
-2020-06-25 09:43:01.787 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
-2020-06-25 09:43:01.791 DEBUG 7524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2020-06-25 09:43:01.952 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
-2020-06-25 09:43:01.952 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2020-06-25 09:43:01.954 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2020-06-25 09:43:01.954 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2020-06-25 09:43:01.955 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2020-06-25 09:43:01.956 DEBUG 7524 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
-2020-06-25 09:43:01.956 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
-2020-06-25 09:43:01.956 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jun 25 09:43:01 CST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
-2020-06-25 09:43:01.958 DEBUG 7524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2020-06-25 09:43:24.466 DEBUG 7524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
-2020-06-25 09:43:24.466 DEBUG 7524 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zy.springbootdemo.controller.HelloController#hello()
-2020-06-25 09:43:24.467  INFO 7524 --- [http-nio-8080-exec-4] c.z.s.controller.HelloController         : 您好
-2020-06-25 09:43:24.470 DEBUG 7524 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
-2020-06-25 09:43:24.470 DEBUG 7524 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["欢饮使用springbootStudent(name=cheng, age=11)>>Teacher(sname=张三)"]
-2020-06-25 09:43:24.472 DEBUG 7524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2020-06-25 10:54:24.938 DEBUG 9532 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/D:/javacodetest/springboot-demo/target/classes/]
-2020-06-25 10:54:25.030  INFO 9532 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication on zy with PID 9532 (D:\javacodetest\springboot-demo\target\classes started by Administrator in D:\javacodetest\springboot-demo)
-2020-06-25 10:54:25.031  INFO 9532 --- [restartedMain] c.z.s.SpringbootDemoApplication          : No active profile set, falling back to default profiles: default
-2020-06-25 10:54:25.031 DEBUG 9532 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.zy.springbootdemo.SpringbootDemoApplication
-2020-06-25 10:54:25.077 DEBUG 9532 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/D:/javacodetest/springboot-demo/target/classes/application.yml' (classpath:/application.yml)
-2020-06-25 10:54:25.078 DEBUG 9532 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/javacodetest/springboot-demo/target/classes/]
-2020-06-25 10:54:25.078 DEBUG 9532 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
-2020-06-25 10:54:25.078 DEBUG 9532 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
-2020-06-25 10:54:25.079  INFO 9532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-25 10:54:25.079  INFO 9532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-25 10:54:25.079 DEBUG 9532 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@675d09eb
-2020-06-25 10:54:25.854 DEBUG 9532 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
-2020-06-25 10:54:25.854 DEBUG 9532 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
-2020-06-25 10:54:25.855 DEBUG 9532 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-06-25 10:54:25.905  INFO 9532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-06-25 10:54:25.911  INFO 9532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-25 10:54:25.912  INFO 9532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-06-25 10:54:25.914  INFO 9532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
-2020-06-25 10:54:25.914  INFO 9532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
-2020-06-25 10:54:25.914  INFO 9532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2020-06-25 10:54:25.914  INFO 9532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2020-06-25 10:54:26.937  INFO 9532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
-2020-06-25 10:54:26.992  INFO 9532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-25 10:54:26.992 DEBUG 9532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2020-06-25 10:54:26.992  INFO 9532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1913 ms
-2020-06-25 10:54:27.003 DEBUG 9532 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
-2020-06-25 10:54:27.003 DEBUG 9532 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
-2020-06-25 10:54:27.022 DEBUG 9532 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
-2020-06-25 10:54:27.023 DEBUG 9532 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
-2020-06-25 10:54:27.023 DEBUG 9532 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
-2020-06-25 10:54:27.128  INFO 9532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-25 10:54:27.138 DEBUG 9532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2020-06-25 10:54:27.178 DEBUG 9532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
-2020-06-25 10:54:27.188 DEBUG 9532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/zy] in 'viewControllerHandlerMapping'
-2020-06-25 10:54:27.198 DEBUG 9532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2020-06-25 10:54:27.205 DEBUG 9532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2020-06-25 10:54:27.225 DEBUG 9532 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
-2020-06-25 10:54:27.253 DEBUG 9532 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
-2020-06-25 10:54:27.254  INFO 9532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-25 10:54:27.286  INFO 9532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-06-25 10:54:27.304 DEBUG 9532 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2020-07-21 19:39:33.373  INFO 13972 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 2.676 seconds (JVM running for 3.401)
+2020-07-21 19:39:33.375 DEBUG 13972 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2020-07-21 19:39:33.375 DEBUG 13972 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2020-07-21 19:39:33.375 DEBUG 13972 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@228ded
+2020-07-21 19:39:33.375 DEBUG 13972 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.zy.springbootdemo.SpringbootDemoApplication with URLs [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:41:39.013 DEBUG 20496 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:41:51.070  INFO 20496 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication on zy with PID 20496 (D:\javacodetest\springboot-demo\target\classes started by Administrator in D:\javacodetest\springboot-demo)
+2020-07-21 19:41:51.071  INFO 20496 --- [restartedMain] c.z.s.SpringbootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-21 19:41:53.110 DEBUG 21728 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:41:53.194  INFO 21728 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication on zy with PID 21728 (D:\javacodetest\springboot-demo\target\classes started by Administrator in D:\javacodetest\springboot-demo)
+2020-07-21 19:41:53.196  INFO 21728 --- [restartedMain] c.z.s.SpringbootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-07-21 19:41:53.196 DEBUG 21728 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.zy.springbootdemo.SpringbootDemoApplication
+2020-07-21 19:41:53.246 DEBUG 21728 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/D:/javacodetest/springboot-demo/target/classes/application.yml' (classpath:/application.yml)
+2020-07-21 19:41:53.247 DEBUG 21728 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:41:53.247 DEBUG 21728 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2020-07-21 19:41:53.247 DEBUG 21728 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
+2020-07-21 19:41:53.248  INFO 21728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-21 19:41:53.248  INFO 21728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-21 19:41:53.248 DEBUG 21728 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d747959
+2020-07-21 19:41:54.149 DEBUG 21728 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+2020-07-21 19:41:54.150 DEBUG 21728 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\Java\LocalRepository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+2020-07-21 19:41:54.150 DEBUG 21728 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-07-21 19:41:54.210  INFO 21728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-21 19:41:54.218  INFO 21728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-21 19:41:54.218  INFO 21728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-21 19:41:54.220  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-21 19:41:54.220  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-07-21 19:41:54.220  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-21 19:41:54.220  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-21 19:41:55.259  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-07-21 19:41:55.324  INFO 21728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-21 19:41:55.324 DEBUG 21728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-21 19:41:55.324  INFO 21728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2076 ms
+2020-07-21 19:41:55.337 DEBUG 21728 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, tokenAuthenticationFilter urls=[/*] order=2147483647
+2020-07-21 19:41:55.337 DEBUG 21728 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-21 19:41:55.352 DEBUG 21728 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2020-07-21 19:41:55.352 DEBUG 21728 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2020-07-21 19:41:55.352 DEBUG 21728 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2020-07-21 19:41:55.480  INFO 21728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-21 19:41:55.492 DEBUG 21728 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-21 19:41:55.541 DEBUG 21728 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2020-07-21 19:41:55.551 DEBUG 21728 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/zy] in 'viewControllerHandlerMapping'
+2020-07-21 19:41:55.564 DEBUG 21728 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-21 19:41:55.571 DEBUG 21728 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-21 19:41:55.581 DEBUG 21728 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2020-07-21 19:41:55.612 DEBUG 21728 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
+2020-07-21 19:41:55.613  INFO 21728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-21 19:41:55.640  INFO 21728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-21 19:41:55.657 DEBUG 21728 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 
 ============================
@@ -1068,19 +1027,6 @@ Positive matches:
 
    JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
       - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
-      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
-
-   JmxAutoConfiguration#mbeanExporter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration#mbeanServer matched:
-      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JmxAutoConfiguration#objectNamingStrategy matched:
-      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
 
    LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
       - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
@@ -1429,6 +1375,12 @@ Negative matches:
    JmsAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'javax.jms.Message' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
 
    JndiConnectionFactoryAutoConfiguration:
       Did not match:
@@ -1782,8 +1734,15 @@ Unconditional classes:
 
 
 
-2020-06-25 10:54:27.316  INFO 9532 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 2.682 seconds (JVM running for 3.432)
-2020-06-25 10:54:27.317 DEBUG 9532 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
-2020-06-25 10:54:27.317 DEBUG 9532 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
-2020-06-25 10:54:27.317 DEBUG 9532 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@22e1869
-2020-06-25 10:54:27.317 DEBUG 9532 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.zy.springbootdemo.SpringbootDemoApplication with URLs [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:41:55.664  INFO 21728 --- [restartedMain] c.z.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 2.949 seconds (JVM running for 4.053)
+2020-07-21 19:41:55.665 DEBUG 21728 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2020-07-21 19:41:55.665 DEBUG 21728 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2020-07-21 19:41:55.665 DEBUG 21728 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6a31ed72
+2020-07-21 19:41:55.665 DEBUG 21728 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.zy.springbootdemo.SpringbootDemoApplication with URLs [file:/D:/javacodetest/springboot-demo/target/classes/]
+2020-07-21 19:42:13.247  INFO 21728 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-21 19:42:13.247  INFO 21728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-21 19:42:13.247 DEBUG 21728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-21 19:42:13.254 DEBUG 21728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-21 19:42:13.254  INFO 21728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-21 19:42:51.283 DEBUG 21728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2020-07-21 19:42:51.286 DEBUG 21728 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zy.springbootdemo.controller.HelloController#hello()

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>haha</title>
+</head>
+<body>
+<h2>登录页</h2>
+<form action="/login" method="post">
+    <table border="1">
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" name="username"/></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="password"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right"><button type="submit">登录</button></td>
+        </tr>
+    </table>
+</form>
+
+<h3>短信登陆</h3>
+<form action="/authentication/mobile" method="post">
+    <table>
+        <tr>
+            <td>手机号码：</td>
+            <td><input type="text" name="mobile" value="18883991663"></td>
+        </tr>
+        <tr>
+            <td>短信验证码：</td>
+            <td>
+                <input type="text" name="smsCode">
+                <a href="/code/sms?mobile=13800138000"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">登录</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
